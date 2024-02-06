@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        color: black;
+        font-size: 16px;
+      }
+      .container,
+      .box {
+        width: 50%;
+      }
+      .container {
+        min-height: 100vh;
+        padding-left: 16px;
+        background-color: beige;
+      }
+      .product {
+        font-size: calc(1rem * 1.5);
+      }
+      .text { 
+        max-width: 100%;
+        word-break: break-all;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div>
+        <textarea id="commentText" cols="40" rows="10"></textarea>
+      </div>
+      <button id="addReview">Оставить отзыв</button>
+    </div>
+    <div class="container"></div>
+    <script src="task1.js" type="module"></script>
+    <script src="task2.js" type="module"></script>
+  </body>
+</html>
